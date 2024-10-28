@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    width: 100%;
+    margin: 5px;
+    border: 1px solid gray;
+}
+#cabecera{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid gray;
+    background-color: bisque;
+}
+#cabecera h1 {
+    flex-basis: 50%;
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 5px;
+    font-family: Helvetica;
+    font-style: italic;
+    text-transform: uppercase;
+}
+#menu {
+    flex-grow: 1;
+    flex-basis: 50%;
+    align-items: center;
+}
+#menu > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 10pt;
+    height: 100%;
+}
+#menu a {
+    color: darkslategrey;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 60px;
+    margin: 10px 15px;
+}
+#menu a:hover {
+    background-color: dimgrey;
+    color: white;
+}
+#logo{
+    margin: 20px 80px
+}
+#contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+#contenido div{
+    height: 500px;
+    width: 335px;
+    margin: 60px;
+    text-align: left;
+}
+#mapa {
+    width: 400px;
+    margin: 25px auto;
+}
+#conclusion{
+    height: 250px;
+    background-color:rgb(170, 108, 32);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#tabla{
+    flex-grow: 1;
+    flex-basis: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    justify-content: center;
+    list-style-type: none;
+    font-size: 10pt;
+    height: 100%;
+}
+
+
+
